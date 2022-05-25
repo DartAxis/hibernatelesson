@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:postgresql://192.168.0.140:5432/vpnrdpip</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.username">admindb</property>
+        <property name="connection.password">Qwerty3366</property>
+        <property name="ddl-auto">update</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+        <property name="show_sql">true</property>
+
+    </session-factory>
+</hibernate-configuration>
